@@ -1,0 +1,13 @@
+langchain
+unstructured
+pdf2image
+libmagic
+google-generativeai
+faiss-cpu
+python-dotenv
+python-magic==0.4.24
+tiktoken
+Streamlit
+langchain-google-genai
+openai
+
