@@ -11,8 +11,9 @@ from langchain.chat_models import ChatOpenAI
 from HTMLTemplate import css, user_template, bot_template
 from dotenv import load_dotenv
 
-# Set your Google API Key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyATBqqkTFy5c39UnK4m7pBbjKE8gvC09e8'
+# Set your API keys from environment variables
+google_api_key = os.getenv('GOOGLE_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY')
 
 
 # Load environment variables
